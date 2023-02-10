@@ -4,9 +4,9 @@ const { SlashCommandBuilder } = require('discord.js');
 // Export the ping command.
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('ping')
-		.setDescription('Replies with Pong!'),
+		.setName('bing')
+		.setDescription('Replies with Bong!'),
 	async execute(interaction) {
-		await interaction.reply('Pong!');
+		await interaction.reply('Bong!');
 	},
 };

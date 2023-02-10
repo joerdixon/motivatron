@@ -1,6 +1,8 @@
+// Import the command builder from discord package.
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
+	// data will be a new slash command, with a name and description property
 	data: new SlashCommandBuilder()
 		.setName('user')
 		.setDescription('Provides information about the user.'),
