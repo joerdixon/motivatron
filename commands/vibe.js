@@ -1,4 +1,9 @@
 const { SlashCommandBuilder } = require("discord.js")
+const ytdl = require("ytdl-core");
+
+const queue = new Map();
+
+
 
 // The vibe command will play Roddy Rich - The Box lofi remix
 
